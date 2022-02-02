@@ -1,0 +1,71 @@
+.App {
+  text-align: center;
+}
+
+.form-fields {
+  margin: 0.5em;
+  padding: 0.5em;
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  text-align: left;
+  
+}
+.form-fields label {
+  font-size: 1.5em;
+  margin-bottom: .25em;
+}
+
+.submitButton {
+  color: blue
+}
+
+.error{
+  width: 400px;
+  height: 200px;
+}
+
+/* .headerStyle {
+  margin: 1em auto;
+  display: flex;
+  justify-content: space-between;
+} */
+
+th {
+  width: 150px;
+  text-align: left;
+  padding: 2px 5px;
+  color: black;
+}
+
+tr:nth-child(odd) td {
+  background-color: #eee;
+}
+
+.headerStyle {
+  font-size: 1.5em;
+  display: flex;
+  justify-content: space-between;
+}
+
+.linkStyle {
+  margin: .5em 1em;
+  font-size: .75em;
+}
+
+.titleStyle {
+  font-size: 2em;
+  font-weight: bold;
+}
+.subtitleStyle {
+  margin: 1em 0;
+}
+
+.petInfo {
+  font-size: 1.5em;
+  width: 10em;
+  font-weight: bold;
+}
+.petInfoData {
+}
